@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin: 50px 15px;
+}
+.container .chi-cont{
+    flex: 1;
+}
+.chi-cont img{
+    width: 90%;
+}
+.chi-cont h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+.chi-cont p{
+    font-size: 25px;
+}
+.chi-cont button{
+    color: white;
+    background-color: black;
+    padding: 15px;
+    border-color: black;
+    margin: 20px 0px;
+}
+@media screen and (min-width: 767px) {
+    .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
